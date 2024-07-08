@@ -13,5 +13,22 @@ The potential for online selling in India is evident, as highlighted by Forbes A
 
 Despite India's lower internet penetration compared to developed nations, its substantial online user base forecasted for 2024 underscores its potential as a lucrative market. This study aims to leverage predictive modeling, specifically comparing multi linear regression, logistic regression, random forest, and decision tree models. The objective is to determine which of these models can provide the most insightful analysis of the dataset, facilitating informed decision-making for product development and market strategy implementation.
 
-# Data Collection, Preparation, and Visualization**
+# Data Collection, Preparation, and Visualization
 ## Data Colection
+The data utilized in this study were sourced from Kaggle and are described as follows: the 19 character variables listed in table1,  4 numerical variables, and  1 Boolean variable. 
+Table1: List of the character variables and their levels
+	![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/c511a698-52e5-489e-b98d-4312c37de74b)
+
+	
+
+
+
+
+
+
+
+
+
+
+
+

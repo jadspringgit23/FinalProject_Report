@@ -21,6 +21,23 @@ Table1: List of the character variables and their levels
 
 	
 
+## Data Preparation
+
+The original dataset 'AmazonSale' initially consisted of 24 variables and 128,975 observations, labeled as data11. Upon inspection for missing values using the function (data11.dropna()), the dataset was reduced to 19,379 observations while retaining the same number of variables. Before conducting exploratory data analysis, we removed unnecessary variables pertinent to online selling in India. Variables such as currency, ship-state, ship-city, Order Id, Date, Style, SKU, ASIN, and promotion-ids were dropped due to issues with creating dummy variables and memory constraints, especially those with levels exceeding 90. Additionally, variables like Sales channel, Courier Status, ship-service-level, fulfilled-by, and Unnamed were irrelevant to the study's objectives and were also dropped. It's important to note that the variable "Sales Channel" presented difficulties in dropping using the function and was consequently removed using Excel, resulting in data11 having 19,379 observations with 23 variables. Following the removal of unused variables, the dataset was left with 19,379 observations and 8 variables. Before proceeding with dummy variable transformation, we converted the content of the variable "Fulfilment" to numeric values (Amazon to 1, Merchant to 0) since it served as one of the dependent variables for logistic regression, random forest, and decision tree tests. 
+
+## Data Visualization
+
+![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/bba94725-0562-4954-b51c-bda372ffe06f)
+![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/b93efe82-32d9-49b0-9c89-237d13ded47b)
+![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/51b88e02-6703-47a4-a38f-832829a928ed)
+![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/94bf2816-fa75-487c-98c0-83b1d48bf8db)
+![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/bd2c03fd-baa0-4b75-b772-beaaffa19e52)
+![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/b00dd030-665c-44b6-8428-e9dc1985d8fb)
+![image](https://github.com/jadspringgit23/FinalProject_Report/assets/155911452/72d37ff5-737b-4b2a-9162-ef6c3d368a98)
+
+# Methodology
+
+
 
 
 
